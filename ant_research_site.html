@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Visual vs Chemical Cues in Diacamma Ants</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"></noscript>
 <style>
   :root {
     --soil: #2C1A0E;
@@ -34,7 +37,7 @@
   html { scroll-behavior: smooth; }
 
   body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     background: var(--off-white);
     color: var(--text-dark);
     line-height: 1.7;
@@ -52,7 +55,7 @@
   }
   .nav-brand {
     display: flex; align-items: center; gap: 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
     font-size: 1.1rem; color: var(--amber-light);
     text-decoration: none;
   }
@@ -101,7 +104,7 @@
   }
 
   #hero h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
     font-size: clamp(2.4rem, 6vw, 5rem);
     font-weight: 700;
     color: var(--cream);
@@ -168,7 +171,7 @@
   }
 
   h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
     font-size: clamp(1.8rem, 4vw, 2.8rem);
     font-weight: 700; line-height: 1.2;
     color: var(--text-dark);
@@ -176,7 +179,7 @@
   }
 
   h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
     font-size: 1.35rem; font-weight: 700;
     color: var(--bark); margin-bottom: 0.75rem;
   }
@@ -213,7 +216,7 @@
     border: 3px solid var(--amber-light);
     overflow: hidden;
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
     font-size: 1.6rem; color: var(--amber);
   }
   .member-photo img { width: 100%; height: 100%; object-fit: cover; }
@@ -246,7 +249,7 @@
     border-radius: 12px; padding: 1.25rem;
     text-align: center;
   }
-  .stat-num { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--amber-light); font-weight: 700; }
+  .stat-num { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 2rem; color: var(--amber-light); font-weight: 700; }
   .stat-label { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(245,228,192,0.55); margin-top: 4px; }
 
   /* ---- SPECIES ---- */
@@ -343,10 +346,10 @@
     width: 48px; height: 48px; border-radius: 50%;
     background: var(--amber); color: var(--soil);
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 1.4rem; font-weight: 700;
     flex-shrink: 0;
   }
-  .exp-title-block h3 { color: var(--amber-light); font-family: 'DM Sans', sans-serif; font-size: 1.2rem; font-weight: 600; margin-bottom: 2px; }
+  .exp-title-block h3 { color: var(--amber-light); font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 1.2rem; font-weight: 600; margin-bottom: 2px; }
   .exp-title-block p { color: rgba(245,228,192,0.55); font-size: 0.82rem; margin: 0; }
 
   .exp-body { padding: 2rem; }
@@ -419,7 +422,7 @@
   .code-block {
     background: #1A1008;
     padding: 1.75rem;
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Courier New', Courier, monospace;
     font-size: 0.82rem;
     line-height: 1.8;
     color: #C8C2B8;
@@ -449,7 +452,7 @@
     border: 1px solid rgba(200,130,26,0.2);
     border-radius: 12px; overflow: hidden;
     margin-top: 1.5rem;
-    font-family: 'DM Mono', monospace; font-size: 0.82rem;
+    font-family: 'DM Mono', 'Courier New', Courier, monospace; font-size: 0.82rem;
   }
   .matrix-header {
     display: grid; grid-template-columns: 1.5fr 1fr 1fr;
@@ -533,7 +536,7 @@
   .footer-inner { max-width: 1100px; margin: 0 auto; }
   footer p { color: rgba(245,228,192,0.35); font-size: 0.8rem; margin: 0; }
   footer .footer-logo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
     color: var(--amber-light); font-size: 1.2rem;
     margin-bottom: 0.75rem;
   }
@@ -549,7 +552,7 @@
   @media(max-width:680px){ .two-col { grid-template-columns: 1fr; gap: 1.5rem; } }
 
   .highlight-quote {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
     font-size: 1.25rem; font-style: italic;
     color: var(--bark);
     border-left: 4px solid var(--amber);
@@ -1247,3 +1250,4 @@ plt.<span class="c-fn">show</span>()</div>
 
 </body>
 </html>
+
